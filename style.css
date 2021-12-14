@@ -1,0 +1,10 @@
+.orange-bg{
+    background-color: #FEEAE9;
+
+}
+.item-details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 50px;
+}
