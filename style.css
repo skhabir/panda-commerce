@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 .orange-bg{
     background-color: #FEEAE9;
 
@@ -7,4 +10,50 @@
     justify-content: center;
     align-items: center;
     padding-left: 50px;
+}
+.categories{
+    box-sizing: border-box;
+}
+.cat1{
+    background-color: orange;
+    padding: 10px 30px;
+    color: white;
+    border-radius: 10px;
+}
+.cat2{
+    background-color: orchid;
+    padding: 10px 30px;
+    color: white;
+    border-radius: 10px;
+    margin: 0px 5px;
+}
+.cat3{
+    background-color: blue;
+    padding: 10px 30px;
+    color: white;
+    border-radius: 10px;
+}
+.cat1 img{
+    width: 30%;
+}
+.cat2 img{
+    width: 30%;
+}
+.cat3 img{
+    width: 30%;
+}
+.buy-button{
+   background-image: linear-gradient(to bottom, #ff589b 0%, #ff136f 100%);
+   color: white;
+}
+.card{
+    border: none;
+    box-shadow: 5px 5px 15px lightgray;
+}
+.card-footer{
+    border: none;
+}
+#contact-us{
+    height: 300px;
+    
 }
